@@ -1,7 +1,7 @@
 It is an open source software to implement FAT file system to small embedded systems. This is a free software and 
 is opened for education, research and commercial developments under license policy of following trems.
 
-(C) 2013 vinxru
+(C) 2013 Aleksey Mozorov (alemorf)
 
 (C) 2010, ChaN, all right reserved.
 
