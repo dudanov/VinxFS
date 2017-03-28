@@ -16,9 +16,9 @@ Version 0.99 5-05-2013
 #ifndef _SD_H_
 #define _SD_H_
 
-BYTE sd_init(); /* Инициализация карты */
-BYTE sd_check(); /* Проверка наличия карты */
-BYTE sd_read(BYTE* buffer, DWORD sector, WORD offsetInSector, WORD length); /* Чтение части сектора */
-BYTE sd_write512(BYTE* buffer, DWORD sector); /* Запись сектора */
+BYTE sd_init(); /* РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РєР°СЂС‚С‹ */
+BYTE sd_check(); /* РџСЂРѕРІРµСЂРєР° РЅР°Р»РёС‡РёСЏ РєР°СЂС‚С‹ */
+BYTE sd_read(BYTE* buffer, DWORD sector, WORD offsetInSector, WORD length); /* Р§С‚РµРЅРёРµ С‡Р°СЃС‚Рё СЃРµРєС‚РѕСЂР° */
+BYTE sd_write512(BYTE* buffer, DWORD sector); /* Р—Р°РїРёСЃСЊ СЃРµРєС‚РѕСЂР° */
 
 #endif
